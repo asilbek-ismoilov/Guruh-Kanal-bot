@@ -1,8 +1,8 @@
-from aiogram.types import Message, ChatPermissions, input_file, ChatMemberAdministrator
-from loader import dp, supergroup, bot
 from aiogram import F
-from aiogram.filters import and_f
 from time import time
+from aiogram.filters import and_f
+from loader import dp, supergroup, bot
+from aiogram.types import Message, ChatPermissions, input_file, ChatMemberAdministrator
 
 
 

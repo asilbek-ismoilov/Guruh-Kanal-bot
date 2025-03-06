@@ -4,7 +4,7 @@ from aiogram.filters import CommandStart
 
 
 
-@dp.message(CommandStart())
+@dp.message(CommandStart(), private)
 async def start_command(message:Message):
     full_name = message.from_user.full_name
     telegram_id = message.from_user.id

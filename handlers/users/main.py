@@ -156,7 +156,7 @@ async def group_info(message: Message):
 #             until_date = int(time()) + 60
 #             permission = ChatPermissions(can_send_messages=False)
 #             await message.chat.restrict(user_id=user_id,permissions=permission,until_date=until_date)
-#             await message.answer(text=f"{message.from_user.mention_html()} o'zing {soz}")
+#             await message.answer(text=f"{message.from_user.mention_html()} o'zing {soz}", parse_mode="HTML")
 #             await message.delete() 
 #             break
 
